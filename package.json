@@ -1,1 +1,12 @@
-npm init -y
+{
+  "name": "distube-music-bot",
+  "version": "1.0.0",
+  "description": "A music bot using Distube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "distube": "^4.0.0"
+  }
+}
